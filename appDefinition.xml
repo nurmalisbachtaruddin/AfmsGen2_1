@@ -1,5 +1,4 @@
 <appDefinition>
-   <appId>AfmsGen2</appId>
    <id>AfmsGen2</id>
    <version></version>
    <name>Afms Generation 2</name>
@@ -139,20 +138,20 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>I0001IncomingMailCient_danny::make_order_number</string>
+               <string>I0001IncomingMailCient_danny::approval_reply_mail</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient_danny</processDefId>
-                  <activityDefId>make_order_number</activityDefId>
+                  <activityDefId>approval_reply_mail</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>I0001IncomingMailCient_danny::approval_reply_mail</string>
+               <string>I0001IncomingMailCient_danny::make_order_number</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient_danny</processDefId>
-                  <activityDefId>approval_reply_mail</activityDefId>
+                  <activityDefId>make_order_number</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
