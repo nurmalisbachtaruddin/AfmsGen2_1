@@ -1,0 +1,169 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.DatePicker",
+                    "properties": {
+                        "permissionHidden": "",
+                        "yearRange": "c-10:c+10",
+                        "dataFormat": "yyyy-MM-dd",
+                        "startDateFieldId": "field6",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "format": "dd-mm-yy",
+                        "label": "Date Picker",
+                        "datePickerType": "",
+                        "currentDateAs": "minDate",
+                        "endDateFieldId": "field6",
+                        "readonly": "true",
+                        "allowManual": "",
+                        "workflowVariable": "",
+                        "id": "field6",
+                        "placeholder": "",
+                        "disableWeekends": "true",
+                        "value": "#date.yyyy-MM-dd#",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "useDefaultWhenEmpty": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "id": "test",
+                        "value": "#form.afms_agent.email#"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.FileUpload",
+                    "properties": {
+                        "resizeMethod": "",
+                        "permissionType": "",
+                        "padding": "",
+                        "maxSizeMsg": "File size limit exceeded",
+                        "resizeWidth": "",
+                        "multiple": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "maxSize": "",
+                        "label": "File Upload",
+                        "resizeQuality": "0.8",
+                        "removeFile": "",
+                        "readonly": "",
+                        "attachment": "true",
+                        "size": "",
+                        "fileTypeMsg": "Invalid file type",
+                        "id": "file_upload",
+                        "resizeHeight": "",
+                        "fileType": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "requiredSanitize": "true",
+                        "readonly": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Description",
+                        "id": "description",
+                        "placeholder": "",
+                        "rows": "5",
+                        "cols": "20",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                }
+            ],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {"width": "100%"}
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "visibilityControl": "",
+            "permissionReadonly": "",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Section",
+            "reverse": "",
+            "storeBinder": {
+                "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                "properties": {}
+            },
+            "visibilityValue": "",
+            "regex": "",
+            "readonly": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "comment": "",
+            "id": "section1",
+            "join": "",
+            "readonlyLabel": ""
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "noPermissionMessage": "",
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
+        "name": "Reply Mail",
+        "description": "",
+        "postProcessorRunOn": "create",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "id": "replyMail",
+        "postProcessor": {
+            "className": "org.joget.apps.app.lib.EmailTool",
+            "properties": {
+                "cc": "dannynovh@gmail.com",
+                "toSpecific": "#form.afms_agent.mail_address#",
+                "bcc": "",
+                "icsAttachement": "",
+                "subject": "tes",
+                "retryCount": "",
+                "formDefId": "",
+                "toParticipantId": "",
+                "message": "tes",
+                "PROPERTIES_EDITOR_METAS_HASH_FIELD": "security",
+                "p12": "",
+                "security": "SSL",
+                "password": "mikumiku01",
+                "storepass": "",
+                "port": "465",
+                "isHtml": "true",
+                "host": "smtp.gmail.com",
+                "alias": "",
+                "files": [],
+                "from": "danny.nov@ambadar.co.id",
+                "retryInterval": "",
+                "fields": [],
+                "username": "danny.nov@ambadar.co.id"
+            }
+        },
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
+        "tableName": "afms_outgoingmail"
+    }
+}

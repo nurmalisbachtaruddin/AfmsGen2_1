@@ -1,0 +1,15 @@
+<appDefinition>
+   <appId>AfmsGen2</appId>
+   <id>AfmsGen2</id>
+   <version></version>
+   <name>Afms Generation 2</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList/>
+   <messageList/>
+   <resourceList/>
+</appDefinition>
