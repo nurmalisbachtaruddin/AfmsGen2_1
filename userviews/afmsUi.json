@@ -1,0 +1,103 @@
+{
+    "className": "org.joget.apps.userview.model.Userview",
+    "categories": [{
+        "className": "org.joget.apps.userview.model.UserviewCategory",
+        "menus": [{
+            "className": "org.joget.apps.userview.lib.HtmlPage",
+            "properties": {
+                "userviewCacheDuration": "",
+                "userviewCacheScope": "",
+                "id": "295df761-b6df-4165-9e32-2078769eb6e0",
+                "label": "Welcome",
+                "enableOffline": "",
+                "customId": "welcome",
+                "content": "<div class=\"ui-welcome\">\n<h1>Apps and Workflow Made Simple<\/h1>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Build apps, not just processes!<\/h3>\n<p>Create full-fledged apps with support for data records management.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Increased Efficiency and Productivity<\/h3>\n<p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Lowered Cost<\/h3>\n<p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p>\n<\/div>\n<\/div>"
+            }
+        }],
+        "properties": {
+            "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
+            "label": "<i class='fa fa-home'><\/i> Home"
+        }
+    }],
+    "properties": {
+        "logoutText": "Logout",
+        "welcomeMessage": "#date.EEE, d MMM yyyy#",
+        "name": "Afms UI",
+        "description": "",
+        "footerMessage": "Powered by Joget",
+        "id": "afmsUi"
+    },
+    "setting": {"properties": {
+        "__": "",
+        "userviewDescription": "",
+        "userviewId": "afmsUi",
+        "hideThisUserviewInAppCenter": "",
+        "userview_thumbnail": "",
+        "userview_category": "",
+        "theme": {
+            "className": "org.joget.apps.userview.lib.AjaxUniversalTheme",
+            "properties": {
+                "dx8navBadge": "",
+                "css": "",
+                "loginBackground": "",
+                "dx8navLinkColor": "",
+                "disablePush": "",
+                "removeAssignmentTitle": "",
+                "shortcutLinkLabel": "",
+                "disableHelpGuide": "",
+                "logo": "",
+                "enableResponsiveSwitch": "",
+                "dx8headerFontColor": "",
+                "fav_icon": "",
+                "mobileViewDisabled": "",
+                "dx8navLinkIcon": "",
+                "horizontal_menu": "",
+                "profile": "",
+                "homeAttractBanner": "",
+                "dx8headingBgColor": "",
+                "dx8linkColor": "",
+                "homeUrl": "",
+                "dx8linkActiveColor": "",
+                "dx8footerColor": "",
+                "subheader": "",
+                "disablePwa": "",
+                "dx8contentbackground": "",
+                "loginPageBottom": "",
+                "dx8backgroundImage": "",
+                "dx8navBadgeText": "",
+                "dx8background": "",
+                "dx8headerColor": "",
+                "dx8colorScheme": "rgb(233, 233, 233);rgb(255, 255, 255);rgb(174, 202, 199);rgb(44, 101, 98);rgb(25, 118, 210);rgb(0, 75, 160)",
+                "dx8navBackground": "",
+                "js": "",
+                "dx8navActiveIconColor": "",
+                "dx8navScrollbarThumb": "",
+                "userMenu": [],
+                "urlsToCache": "",
+                "loginPageTop": "",
+                "userImage": "no",
+                "dx8buttonColor": "",
+                "shortcut": [],
+                "fontControl": "",
+                "dx8navActiveLinkBackground": "",
+                "dx8fontColor": "",
+                "dx8navLinkBackground": "",
+                "dx8buttonBackground": "",
+                "dx8contentFontColor": "",
+                "subfooter": "",
+                "mobileCacheEnabled": "",
+                "dx8footerBackground": "",
+                "dx8headingFontColor": "",
+                "dx8primaryColor": "",
+                "darkMode": "",
+                "dx8navActiveLinkColor": "",
+                "inbox": ""
+            }
+        },
+        "permission": {
+            "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
+            "properties": {}
+        },
+        "userviewName": "Afms"
+    }}
+}
